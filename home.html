@@ -1,0 +1,96 @@
+<!-- templates/home.html -->
+<html>
+<head>
+  <title>my webpage home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+</style>
+</head>
+<body>
+  <h1 class="bg-dark text-white" >Welcome on my webpage</h1>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#welcome">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#info">Basic info</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#languages">Languages</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href=" experience.html">Work experience</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="education.html">Education</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Hobbies</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="sport.html">Sports</a>
+        <a class="dropdown-item" href="projects.html">Sewing</a>
+        <a class="dropdown-item" href="travel.html">Travelling</a>
+      </div>
+  </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+
+        <div class="tab-pane container fade" id="info">
+          <div class=d-flex>
+          <div class="col-sm-4" >
+           <img src="me.jpg" class="rounded" alt="My photo" width="80%">
+         </div>
+           <div>
+              <h1> Alicja Filipek</h1>
+              <p class=d-flex>city: Gdańsk, Poland </p>
+              <img src="podpis.jpg">
+              <p>phone: +48 800 800 800</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane container active" id="welcome">
+          <div class=d-flex>
+          <div class="col-sm-4" >
+           <img src="me.jpg" class="rounded" alt="My photo" width="80%">
+         </div>
+           <div>
+              <p> </p>
+              <p> Welcome on my webpage. I am glad, that you are here</p>
+              <p> Looking through the website, you can get know me better and find a lot of informations about me. </p>
+              <p> The navigation is easy and suited to every device, no mater what screen width do you have.</p>
+              <p>  You can find here information about my work experience, education, hobbies or languages that I speak or learn.</p>
+              <p>  Enjoy!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane container fade" id="languages">
+          <p></p>
+          <div class="d-flex">
+            <img src="multilingual.png" class="rounded" alt="hello in different languages" width=20%>
+                <div class="col-sm-6" id="languages">
+                  <ul class"list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Polish <span class="badge badge-primary badge-pill">native</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      English <span class="badge badge-primary badge-pill">advanced</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      German <span class="badge badge-primary badge-pill">intermediate</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Russian <span class="badge badge-primary badge-pill">intermediate</span></li>
+                  </ul>
+                </div>
+              </div>
+        </div>
+    </div></div>
+</body>
+</html>

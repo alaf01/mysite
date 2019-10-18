@@ -1,0 +1,59 @@
+/*
+Error: Invalid CSS after "body:": expected pseudoclass or pseudoelement, was ""
+        on line 6 of style.scss
+
+1: $bg-cl: #f2e6ff;
+2: $tx-cl: #ff99ff;
+3: $ft-siz: 20px;
+4: $font: Helvetica, sans-serif;
+5: 
+6: body:{
+7:   font: {
+8:     size:$ft-siz;
+9:     color:$tx-cl;
+10:     family:$font;
+11:   }
+
+Backtrace:
+style.scss:6
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1278:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1208:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1203:in `tok!'
+/usr/lib/ruby/vendor_ruby/sass/scss/static_parser.rb:285:in `pseudo'
+/usr/lib/ruby/vendor_ruby/sass/scss/static_parser.rb:166:in `simple_selector_sequence'
+/usr/lib/ruby/vendor_ruby/sass/scss/static_parser.rb:111:in `selector'
+/usr/lib/ruby/vendor_ruby/sass/scss/static_parser.rb:86:in `selector_comma_sequence'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1186:in `expr!'
+/usr/lib/ruby/vendor_ruby/sass/scss/static_parser.rb:20:in `parse_selector'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:438:in `visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:162:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:162:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:183:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:170:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:190:in `visit_root'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:161:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:387:in `run'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'
+/usr/bin/sass:8:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"body:\": expected pseudoclass or pseudoelement, was \"\"\A         on line 6 of style.scss\A \A 1: $bg-cl: #f2e6ff;\A 2: $tx-cl: #ff99ff;\A 3: $ft-siz: 20px;\A 4: $font: Helvetica, sans-serif;\A 5: \A 6: body:{\A 7:   font: {\A 8:     size:$ft-siz;\A 9:     color:$tx-cl;\A 10:     family:$font;\A 11:   }"; }

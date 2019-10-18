@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My travels</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+
+<div class="container mt-3">
+
+<h2 class="bg-dark text-white">My travels gallery</h2>
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+          <a class="nav-link active" href="index.html">Index</a></li>
+    <li class="nav-item">
+          <a class="nav-link active" href="home.html">Home</a> </li>
+    <li class="nav-item">
+          <a class="nav-link active" href="experience.html">Experience</a></li>
+    <li class="nav-item">
+          <a class="nav-link active" href="education.html">Education</a></li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Hobbies</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="sport.html">Sports</a>
+                <a class="dropdown-item" href="projects.html">Sewing</a>
+                <a class="dropdown-item" href="travel.html">Travels</a>
+    </ul>
+</div>
+<div id="mytravel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#mytravel" data-slide-to="0" class="active"></li>
+    <li data-target="#mytravel" data-slide-to="1"></li>
+    <li data-target="#mytravel" data-slide-to="2"></li>
+    <li data-target="#mytravel" data-slide-to="3"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Rovaniemi.jpg" alt="Rovaniemi" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="gruzja.jpg" alt="Gruzja" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="Minsk.jpg" alt="Minsk" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="hello.jpg" alt="Minsk" width="1100" height="500">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#mytravel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#mytravel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</div>
+
+</body>
+</html>
