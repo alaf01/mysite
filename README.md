@@ -1,3 +1,1 @@
-# Project 0
-
-Web Programming with Python and JavaScript
+This is a very first project I made, just playing around with html and css
